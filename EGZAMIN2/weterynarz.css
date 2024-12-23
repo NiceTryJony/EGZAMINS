@@ -1,0 +1,40 @@
+#baner{
+    background-color: rgb(105, 88, 89);
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    height: 80px;
+}
+#pan_l{
+    background-color: rgb(145, 127, 112);
+    width: 30%;
+    height: 600px;
+    float:left;
+}
+#pan_s{
+    background-color: rgb(184, 168, 169);
+    width: 50%;
+    height: 600px;
+    float:left;
+
+}
+#pan_p{
+    background-color: rgb(145, 127, 112);
+    width: 20%;
+    height: 600px;
+    float: left;
+}
+h2{
+    color: white;
+}
+img{
+    text-align: right;
+}
+table, td{
+    border: 1px solid black;
+}
+#linia{
+    width: 100%; 
+    height: 1px; 
+    background-color: black;
+}

@@ -1,0 +1,29 @@
+#baner{
+    background-color: #9A6000;
+    color: white;
+    font-size: 180%;
+    text-align: center;
+    padding: 20px;
+}
+#pan_l{
+    width: 60%;
+    float: left;
+}
+#pan_p{
+    background-color: #C47A00;
+    color: white;
+    width: 40%;
+    height: 100%;
+    float: right;   
+}
+h3{
+    text-align: center;
+}
+ul li{
+    margin: 10px
+}
+#linia{
+    background-color: black;
+    height: 1px;
+    widht: 100%;
+}

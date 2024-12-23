@@ -1,0 +1,47 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nasze hobby</title>
+        <link rel="stylesheet" href="hobby.css">
+    </head>
+<section id="baner">
+    <h1>FORUM HOBBYSTYCZNE</h1>
+</section>
+<section id="pan_p">
+    <h3>TEMATYKA FORUM</h3>
+    <ul>
+        <li>Hodowla zwierząt</li>
+        <ul>
+            <li>psy</li>
+            <li>koty</li>
+        </ul>
+        <li>Muzyka</li>
+        <li>Gry komputerowe</li>
+    </ul>
+</section>
+<section id="pan_l">
+    <h3>FORMULARZ REJESTRACJI DO FORUM</h3>
+    <form method="post" action="rejestracja.php">
+        <p><b>Twoje dane</b></p>
+        Nick: 
+        <br><input type="text" id="nick"><br>
+        Hobby:
+        <br><input type="text" id="zainteresowania"><br>
+        Zawód:
+        <br><input type="text" id="zawod"><br>
+        <input type="radio" name="plec" id="K">Kobieta
+        <input type="radio" name="plec" id="M">Mężczyzna
+
+        <section id="linia"></section>
+
+        <p><b>Dane logowania</b></p>
+        Login:
+        <br><input type="text" id="login">
+        <br>Haslo:
+        <br><input type="text" id="haslo">
+        <br><input type="checkbox">Zapoznałem się z <a href="bazaForum/polityka.txt">Polityką biezpieczeństwa</a>
+        <br><input type="reset" value="WYCZYŚĆ" id="wycz"><input type="submit" value="REJESTRÓJ" id="wys"> 
+    </form>
+</section>
+</html>
